@@ -23,7 +23,7 @@ public class Manager extends Regular{
 	@Override
 	public void print() {
 		display();
-		System.out.print(", 수령액: " + pay());
+		System.out.println(", 수령액: " + pay());
 	}
 	
 }

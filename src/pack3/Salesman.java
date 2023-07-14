@@ -19,7 +19,7 @@ public class Salesman extends Regular{
 	@Override
 	public void print() {
 		display();
-		System.out.print(", 수령액: " + super.pay());
+		System.out.println(", 수령액: " + super.pay());
 	}
 	
 }

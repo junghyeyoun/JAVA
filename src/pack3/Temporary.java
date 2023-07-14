@@ -19,6 +19,6 @@ public class Temporary extends Employee{
 	@Override
 	public void print() {
 		display();
-		System.out.print(", 월급: " + pay());
+		System.out.println(", 월급: " + pay());
 	}
 }

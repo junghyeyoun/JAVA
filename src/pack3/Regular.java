@@ -17,6 +17,6 @@ public class Regular extends Employee{
 	@Override
 	public void print() {
 		display();
-		System.out.print(", 급여: " + pay());
+		System.out.println(", 급여: " + pay());
 	}
 }

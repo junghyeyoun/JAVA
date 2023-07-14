@@ -7,17 +7,14 @@ public class EmployeeMain {
 		tem.print();
 
 		// 정규직 : 이름, 나이, 고정급
-		System.out.println();
 		Regular reg = new Regular("신기해", 25, 2345000);
 		reg.print();
 		
 		// 영업직 : 이름, 나이, 고정급, 실적, 수수료율
-		System.out.println();
 		Salesman sal = new Salesman("손오공", 27, 2890000, 30000, 0.25);
 		sal.print();
 		
 		// 관리직 : 이름, 나이, 고정급
-		System.out.println();
 		Manager man = new Manager("사오정", 33, 4578000);
 		man.print();
 	}
