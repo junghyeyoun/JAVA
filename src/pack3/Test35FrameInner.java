@@ -15,7 +15,7 @@ public class Test35FrameInner extends Frame{
 		//super("내부 클래스 사용");  constructor 이용해서 생성
 		setTitle("내부 클래스 사용");
 		
-		setSize(300, 300);
+		setSize(500, 300);
 		setLocation(200, 200);
 		setVisible(true);
 		
