@@ -1,10 +1,25 @@
 package pack4;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+// @Setter
+// @Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Data // getter, setter 한번에
+
+
+
+
 public class Test42StudentDto {
 	// 데이터 전달용 클래스 : Dto - 레코드 단위의 기억장소로 사용
 	private String hakbun, irum;
 	private int jumsu;
-	
+	/*
 	public Test42StudentDto() {
 		
 	}
@@ -39,5 +54,5 @@ public class Test42StudentDto {
 		this.jumsu = jumsu;
 	}
 	
-	
+	*/
 }
